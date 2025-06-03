@@ -1,0 +1,240 @@
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #201c1c;
+    margin: 0;
+  }
+  
+  html, body { height: 100%; }
+  
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.orange-bg {
+    background-color: #e06432;
+  }
+  .orange{
+    color: #e06432;
+  }
+  .navbar-nav .nav-item{
+    min-width: fit-content;
+  }
+  nav.navbar.position-absolute {
+    top: -1rem;
+    left: 50%;
+    transform: translateX(100%);
+  }
+  
+  section {
+    margin: 10rem 1.5rem;
+  }
+  .liteOrange{
+    color: #ea9e7f;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  .banner-content{
+    gap: 5rem;
+  }
+  
+  .line{
+    display: inline-block;
+    width: 2rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-left: -2.5rem;
+    margin-right: 0.5rem;
+  }
+  .head-1{
+      font-size: 53px;
+  }
+
+  .home .container{
+    
+    background-image: linear-gradient(to right, #e06432, black );
+    margin-top: 9rem;
+    
+  }
+  .home .container .row{
+    background-color: #201c1c;
+  }
+  
+  .icons {
+    display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      font-size: 1.5rem;
+      align-items: center;
+  }
+  .verticle-text{
+    writing-mode: vertical-lr;
+    display: flex;
+    transform: rotate(180deg);
+    gap: 1rem;
+  }
+  .iconParent{
+    display: flex ;
+        gap: 7rem;
+        flex-direction: column;
+  }
+  .intro::after {
+    content: "";
+    position: absolute;
+    background-image: url('images/cube.svg');
+    width: 7rem;
+    height: 7rem;
+    background-repeat: no-repeat;
+    bottom: -4rem;
+    left: 7rem;
+    background-size: contain;
+  }
+  .intro::before {
+    content: "";
+    position: absolute;
+    background-image: url('images/cube2.png');
+    width: 7rem;
+    height: 7rem;
+    background-repeat: no-repeat;
+    top: -3rem;
+    right: 4rem;
+    background-size: contain;
+  }
+  .banner-container::after {
+    content: "";
+    position: absolute;
+    background: url('images/emoji.png');
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    top: 1rem;
+    right: -2rem;
+    background-size: contain;
+  }
+  .aboutMeCube-1::before {
+    content: "";
+    position: absolute;
+    background: url('images/cube2.png');
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    top: -3rem;
+    left: 0;
+    background-size: 25% 21%;
+  }
+  .aboutMeCube-2::after {
+    content: "";
+    position: absolute;
+    background: url('images/cube2.png');
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0.5rem;
+    bottom: -4rem;
+  }
+
+  .featuredWork .card{
+  border: 2px solid #e06432;
+  background-color: #2a1e1c;
+  padding: 0.5rem;
+  position: relative;
+  }
+  ul.card-text {
+    height: auto;
+    overflow: auto;
+    padding-left: 1.25rem;
+    line-height: 2;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .card a{
+    position: absolute;
+    bottom: 1rem;
+  }
+  .d-flex.display-3.gap-5.text-white.py-5 {
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+  }
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8rem;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-icons{
+    display: flex;
+        gap: 2.5rem;
+        font-size: 1.5rem;
+        align-items: center;
+        padding: 1rem 0;
+  }
+  
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .contact-1::before {
+    content: "";
+    position: absolute;
+    background: url('images/emojiRight.svg');
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    top: -4rem;
+    left: -1rem;
+    background-size: contain;
+  }
+  
+  ::ng-deep {
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+      background-color: transparent !important;
+      padding: 0 !important;
+    }
+    
+    .mat-mdc-form-field-focus-overlay {
+      background-color: transparent !important;
+    }
+  }
+  .input-parent input{
+    background: transparent;
+      border: 0;
+      border-bottom: 1px solid #ea9e7f;
+  }
+  .input-no-focus-border {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #ea9e7f !important;
+  }
+  input::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  label.liteOrange {
+    font-size: 0.8rem;
+  }
+  .input-parent {
+    margin: 1rem 0;
+  }
+
+  @media (max-width: 576px) { 
+ .head-1 {
+    font-size: 45px !important; 
+  }
+  .d-flex.display-3.text-white.pt-5.skill-container p {
+    width: 1.5rem;
+}
+}
