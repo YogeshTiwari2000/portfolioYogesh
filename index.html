@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,9 +56,9 @@
               </span> scroll down </p>
           </div>
           <div class="para-1 d-flex flex-column justify-content-center">
-            <h1 class="d-flex align-items-center fs-4"><span class="line me-sm fs-5 "></span>Hello</h1>
-            <p class="head-1 fw-bold lh-sm fs-sm-1  ">I'm Yogesh Tiwari</p>
-            <p>A full stack developer based in Gurugram(India)</p>
+            <h2 class="d-flex align-items-center fs-4"><span class="line me-sm fs-5 "></span>Hello</h2>
+            <p class="text-3xl sm:text-6xl fw-bold lh-sm">I'm Yogesh Tiwari</p>
+            <p class="text-sm sm:text-lg">A full stack developer based in Gurugram(India)</p>
             <a href="https://drive.google.com/file/d/1e_MDwtMNyq_iNtJ-tn3hdXmH51RsAK0e/view" target="_blank"
               rel="noopener noreferrer">
               <button class="btn orange-bg text-white my-5"> View Resume </button>
@@ -228,18 +229,19 @@
               class="orange-bg p-3 border border-dark rounded-0">
 
               <div class="d-flex flex-column input-parent"> <label for="name" class="  liteOrange">Name</label>
-                <input placeholder="Your Full Name" name="name" type="text" class="text-white input-no-focus-border" />
+                <input placeholder="Your Full Name" name="name" type="text"
+                  class="text-white input-no-focus-border py-1" />
               </div>
               <div class="d-flex flex-column input-parent"> <label for="email" class="  liteOrange">EMAIL
                   ADDRESS</label>
-                <input placeholder="Your Email Address" type="email" class="text-white input-no-focus-border" />
+                <input placeholder="Your Email Address" type="email" class="text-white input-no-focus-border py-1" />
 
               </div>
               <div class="d-flex flex-column input-parent"> <label for="phone" class="  liteOrange">PHONE NUMBER</label>
-                <input placeholder="Your Phone Number" type="tel" class="text-white input-no-focus-border" />
+                <input placeholder="Your Phone Number" type="tel" class="text-white input-no-focus-border py-1" />
               </div>
               <div class="d-flex flex-column input-parent"> <label for="message" class="  liteOrange">Message</label>
-                <input placeholder="Type Your Message" class="text-white input-no-focus-border" />
+                <input placeholder="Type Your Message" class="text-white input-no-focus-border py-1" />
               </div>
               <div class="text-end"> <button type="submit" class="btn  orange-bg text-white mt-5 bg-dark ">
                   Send Message</button></div>
